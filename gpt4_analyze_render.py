@@ -57,5 +57,4 @@ class GPT4RenderAnalyzer():
 notes = GPT4RenderAnalyzer().analyze_render(image_path)
 
 # Set the analysis notes back to the HDA parameter
-hda = hou.pwd().parent().parent()
 hda.parm("gpt_notes").set(notes)
