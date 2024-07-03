@@ -2,6 +2,7 @@
 
 This HDA allows you to publish your render to `Flow (Shotgun)` directly from Solaris, to continue with the USD worflow. 
 Also, thanks to the `OpenAI API`, you can receive feedback notes from `GPT4`, which you can use as ideas or suggestions.
+- Note: this tool only works for `single frame renders`, as GPT4 is currently only able to analyze images with its Vision module, not video.
 
 ### Prerequisites:
 - Install Flow (Shotgun) API for Python [Flow API Documentation](https://support.google.com/accounts/answer/185833?hl=en)
