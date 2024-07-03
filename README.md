@@ -1,1 +1,14 @@
-# shotgrid-render-publisher-GPT4-
+# Shotgrid Render Publisher (GPT4-Autofeedback)
+
+This HDA allows you to publish your render to `Flow (Shotgun)` directly from Solaris, to continue with the USD worflow. 
+Also, thanks to the `OpenAI API`, you can receive feedback notes from `GPT4`, which you can use as ideas or suggestions.
+
+### Prerequisites:
+- Install Flow (Shotgun) API for Python [Flow API Documentation](https://support.google.com/accounts/answer/185833?hl=en)
+- Install  OpenAI API for Python (Optional) [OpenAI API Documentation](https://platform.openai.com/docs/api-reference/authentication)
+
+### Installation:
+- Download the `.hda` file and put it in your `otls` directory (on Windows, that's usually `\Documents\houdinixx.x\otls)`.
+- Download the `credentials.json` file and modify it with your API keys (Check the `API Documentation` to generate the keys)
+- Launch Houdini and the HDA should appear in the TAB Menu under the name `Comparative Video Generator` (only in the LOP context).
+- Demo Video: 
