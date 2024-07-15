@@ -13,4 +13,4 @@ Also, thanks to the `OpenAI API`, you can receive feedback notes from `GPT4`, wh
 - Download the `credentials.json` file and modify it with your API keys (Check the `API Documentation` to generate the keys)
 - Launch Houdini and the HDA should appear in the TAB Menu under the name `usdrender_shotgrid` (only in the LOP context).
 - In the HDA parameters, reference your `karmarendersettings` and `usdrender_rop` nodes, and the `credentials.json` file. 
-- Demo Video: 
+- Demo Video: https://www.linkedin.com/feed/update/urn:li:activity:7214296835656450048/
